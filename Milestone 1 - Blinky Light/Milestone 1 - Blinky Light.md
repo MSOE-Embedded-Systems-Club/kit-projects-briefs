@@ -28,3 +28,16 @@ In order to turn on our LED, we are going to need to write to various registers 
 
 ### What goes into turning a pin "on"?
 
+In order to turn a pin on, we are going to need to write into several registers that control port behavior in the following order:
+
+1. The RCC register - for clock control
+2. The mode register - for output / input behavior
+3. The output register - for setting the pin state
+
+#### Reading the Datasheet
+
+In order to find the addresses of these registers, you will need to read the datasheet of the STM32F411RET chip! The datasheet can be found on STM32's website.
+
+## Outcome for this Milestone
+
+When you are done you should be able to do a demo of a light blinking once every second.
