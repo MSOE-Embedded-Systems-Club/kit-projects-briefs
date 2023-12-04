@@ -40,4 +40,4 @@ In order to find the addresses of these registers, you will need to read the dat
 
 ## Outcome for this Milestone
 
-When you are done you should be able to do a demo of a light blinking once every second.
+When you are done you should be able to do a demo of a light blinking once every second. 
